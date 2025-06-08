@@ -1,0 +1,42 @@
+{
+  "name": "account-password-generator",
+  "version": "1.0.0",
+  "description": "A simple application to generate random accounts and passwords.",
+  "main": "dist/main.js",
+  "build": {
+    "appId": "com.example.accountpasswordgenerator",
+    "productName": "账号密码生成器",
+    "directories": {
+      "output": "dist_electron"
+    },
+    "files": [
+      "dist/**/*",
+      "public/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "asarUnpack": [],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "scripts": {
+    "start": "npm run build && electron .",
+    "build": "tsc",
+    "pack": "npm run build && electron-builder --dir",
+    "dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.15.30",
+    "electron": "^36.4.0",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.8.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": []
+}

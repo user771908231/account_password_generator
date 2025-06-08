@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es6"
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "src/**/*"
+, "public/renderer.js"  ]
+}

@@ -1,0 +1,5 @@
+* text=auto
+*.md text eol=lf
+node_modules/
+dist/
+dist_electron/
