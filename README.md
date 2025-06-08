@@ -12,12 +12,12 @@ This project is a simple desktop application that generates random usernames and
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/user771908231/account_password_generator
    ```
 
 2. Navigate to the project directory:
    ```
-   cd account-password-generator
+   cd account_password_generator
    ```
 
 3. Install the dependencies:
